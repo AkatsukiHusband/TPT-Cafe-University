@@ -17,4 +17,6 @@
  * 하나의 문장으로 표현할 수 있는 변경단위로 자주 commit 하세요.  
  (좋은 예시 : "Add network protocols.", "Fix 'Human' class.")  
  (나쁜 예시 : "Update.", "Fix something.")
-  * merge 작업은 신중하게 하세요.
+ * merge 작업은 신중하게 하세요.
+ * Issues탭을 자주 확인하고 참여하세요.
+ * 이 ReadMe.md 파일을 잘 손봐주세요.
