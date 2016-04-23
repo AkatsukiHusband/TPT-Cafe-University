@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TPTCafeUniversity.Properties
+namespace TPTCafeUniversity_Server.Properties
 {
 
 

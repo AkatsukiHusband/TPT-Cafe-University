@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{007F1A49-3183-4195-BCB2-126866B98366}</ProjectGuid>
+    <ProjectGuid>{44D885FF-6412-48CC-A0F7-4C668DEE0C4C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TPTCafeUniversity</RootNamespace>
-    <AssemblyName>TPTCafeUniversity</AssemblyName>
+    <RootNamespace>TPTCafeUniversity_Client</RootNamespace>
+    <AssemblyName>TPTCafeUniversity Client</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -75,6 +75,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TPTCafeUniversityLibrary\TPTCafeUniversityLibrary.csproj">
+      <Project>{16964d74-dfbb-419f-9538-35f5e58466c0}</Project>
+      <Name>TPTCafeUniversityLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

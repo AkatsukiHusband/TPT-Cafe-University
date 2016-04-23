@@ -1,4 +1,4 @@
-﻿namespace TPTCafeUniversity
+﻿namespace TPTCafeUniversity_Server
 {
     partial class Form1
     {
